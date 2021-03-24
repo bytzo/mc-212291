@@ -1,0 +1,25 @@
+plugins {
+	id "fabric-loom" version "0.6-SNAPSHOT"
+}
+
+version = "0.1.0"
+group = "net.bytzo"
+
+dependencies {
+	minecraft "com.mojang:minecraft:1.16.5"
+	mappings minecraft.officialMojangMappings()
+	modImplementation "net.fabricmc:fabric-loader:0.11.3"
+}
+
+java {
+	sourceCompatibility = JavaVersion.VERSION_1_8
+	targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+compileJava {
+	options.encoding = "UTF-8"
+}
+
+jar {
+	from "LICENSE"
+}
