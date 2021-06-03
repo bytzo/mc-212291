@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "mc-212291",
-	"version": "0.1.0",
+	"version": "1.0",
 	"environment": "client",
 	"mixins": [
 		"mc-212291.mixins.json"
