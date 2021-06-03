@@ -1,4 +1,4 @@
-package net.bytzo.mc_212291.client.mixin;
+package net.bytzo.mc_212291.mixins;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
